@@ -135,7 +135,7 @@ if __name__ == "__main__":
             if verificar_processo(nome_do_script):
 
                 try:
-                    subprocess.run(f'pkill -9 -f "/root/checkuser/checkuser.py"', shell=True)
+                    subprocess.run(f'pkill -9 -f "/root/check/checkuser.py"', shell=True)
 
                         
                 except subprocess.CalledProcessError:
