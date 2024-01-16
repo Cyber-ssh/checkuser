@@ -135,7 +135,7 @@ if __name__ == "__main__":
             if verificar_processo(nome_do_script):
 
                 try:
-                    subprocess.run(f'pkill -9 -f "/root/check/checkuser.py"', shell=True)
+                    subprocess.run(f'pkill -9 -f "/root/checkuser/checkuser.py"', shell=True)
 
                         
                 except subprocess.CalledProcessError:
@@ -165,23 +165,23 @@ if __name__ == "__main__":
                 print("")
                 print(f" {cor_amarela}Link Conecta4G/5G abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://sucu.megah.tk/checkuser.php?url=http://{ip}:{porta}/checkUser{cor_reset} ")
+                print(f"  {cor_verde}https://painel.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/checkUser{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link DtunnelMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://sucu.megah.tk/checkuser.php?url=http://{ip}:{porta}/dtmod{cor_reset}  ")
+                print(f"  {cor_verde}https://painel.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/dtmod{cor_reset}  ")
                 print("")
                 print(f" {cor_amarela}Link GltunnelMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://sucu.megah.tk/checkuser.php?url=http://{ip}:{porta}/gl{cor_reset} ")
+                print(f"  {cor_verde}https://painel.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/gl{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link AnyVpnMod abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://sucu.megah.tk/checkuser.php?url=http://{ip}:{porta}/anymod{cor_reset} ")
+                print(f"  {cor_verde}https://painel.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/anymod{cor_reset} ")
                 print("")
                 print(f" {cor_amarela}Link AtxTunnel abaixo :{cor_reset} ")
                 print("")
-                print(f"  {cor_verde}https://sucu.megah.tk/checkuser.php?url=http://{ip}:{porta}/atx{cor_reset} ")
+                print(f"  {cor_verde}https://painel.cybercoari.com.br/checkuser.php?url=http://{ip}:{porta}/atx{cor_reset} ")
                 print("")
                 input(f" {cor_vermelha} Pressione a tecla enter para voltar ao menu {cor_reset}")
 
@@ -193,10 +193,10 @@ if __name__ == "__main__":
 
         elif option == "5":
             os.system('clear')
-            print(f"{cor_amarela}Olá, esse é um multi-checkuser criado por : {cor_reset}{cor_vermelha}@UlekBR{cor_reset}{cor_amarela} e melhorado por : {cor_reset} {cor_vermelha}\n@Cyberssh23{cor_reset}")
+            print(f"{cor_amarela}Olá, esse é um multi-checkuser criado por : {cor_reset}{cor_vermelha}@UlekBR{cor_reset}{cor_amarela} e melhorado por : {cor_reset} {cor_vermelha}\n@cybercoari{cor_reset}")
             print(f"{cor_amarela} Com esse checkuser venho trazendo a possibilidade de usar em diversos apps{cor_reset}")
             print(f"{cor_vermelha} Apps como : {cor_reset}")
-            print(f" - Conecta4G/5G/6G")
+            print(f" - Conecta4G")
             print(f" - DtunnelMod")
             print(f" - GlTunnelMod")
             print(f" - AnyVpnMod")

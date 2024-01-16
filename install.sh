@@ -13,9 +13,9 @@ pkill -9 -f "/root/checkuser/checkuser.py"
 
 
 apt update && apt upgrade -y && apt install python3 git -y
-git clone https://github.com/Cyber-ssh/checkuser.git
+git clone https://github.com/modderajuda/checkuser.git
 chmod +x /root/checkuser/checkuserMenu.sh
 ln -s /root/checkuser/checkuserMenu.sh /usr/local/bin/iniciar
 
 clear
-echo -e "Para iniciar o menu digite: ${amarelo} iniciar${reset}"
+echo -e "Para iniciar o menu digite: ${amarelo}iniciar${reset}"
