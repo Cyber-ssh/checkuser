@@ -7,9 +7,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/Cyber-ssh/checkuser/main/inst
 ```
 
 
-Feito por @UlekBR e melhorado por @cybercoari
+Feito por @UlekBR e melhorado por @donomodderajuda
 
-Para iniciar o checkuser menu: 
-```
-iniciar
-```
+Para iniciar o checkuser menu: ```iniciar```
