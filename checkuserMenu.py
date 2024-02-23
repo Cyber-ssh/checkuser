@@ -91,6 +91,7 @@ if __name__ == "__main__":
 
         print(f"")
 
+        print(f" {cor_vermelha}Porta para ativar o checkUser 2095:{cor_reset}")
         print(f" {cor_vermelha}Selecione uma opção :{cor_reset}")
         print(f" {cor_verde} 1 - Matar porta 5454{cor_reset}")
         print(f" {cor_verde} 2 - Iniciar checkuser{cor_reset}")
